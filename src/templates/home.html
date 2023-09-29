@@ -6,12 +6,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Insta</title>
     <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <link rel="stylesheet" href="{% static 'css/contenedor-home-insta.css' %}">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
 </head>
 <body>
     <main class="contenedor-insta">
-        <section>
-            <h1>seccion izquierda</h1>
+
+
+        <section class="contenedor-izquierdo-insta">
+            <article class="contenedor-izquierdo">
+                <h1 class="insta">Insta</h1>
+                <ul class="listas-interacciones">
+                    <div class="contenedor-interaccion">
+                        <i class="fa-solid fa-house"></i>
+                        <li>Inicio</li>
+                    </div>
+                    
+                    <div class="contenedor-interaccion">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <li>Buscar</li>
+                    </div>
+                    
+                    <div class="contenedor-interaccion">
+                        <i class="fa-solid fa-message"></i>
+                        <li>Mensajes</li>
+                    </div>
+                    
+                    <div class="contenedor-interaccion">
+                        <i class="fa-solid fa-bell"></i>
+                        <li>Notificaciones</li>
+                    </div>
+                    
+                    <div class="contenedor-interaccion">
+                        <i class="fa-solid fa-user"></i>
+                        <li>Perfil</li>
+                    </div>
+                    
+                    <div class="contenedor-interaccion">
+                        <i class="fa-solid fa-bars"></i>
+                        <li>Más</li>
+                    </div>
+                </ul>
+            </article>
         </section>
+
+
+       
+
 
         
         {% block home %}

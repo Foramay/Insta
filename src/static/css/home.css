@@ -6,8 +6,76 @@ body{
 }
 
 .contenedor-insta{
-    border: 1px solid black;
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     display: flex;
+}
+
+.contenedor-izquierdo-insta{
+    width: 20%;
+    height: 100vh;
+    border-right: 1px solid rgba(139, 139, 139, 0.589);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.contenedor-izquierdo{
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+}
+.insta{
+    color: black;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
+    letter-spacing: 4px;
+    transition: transform 2s ease-in-out;
+    padding: 15px;
+    white-space: nowrap; /* Evita que el texto se rompa y se extienda más allá del contenedor */
+    overflow: hidden; /* Oculta el texto que se desborda del contenedor */
+    text-overflow: ellipsis; /* Agrega puntos suspensivos (...) si el texto se desborda */
+}
+.insta:hover{
+    cursor: pointer;
+    
+}
+.listas-interacciones{
+    padding: 0; /* Elimina el relleno */
+    margin: 0;
+}
+
+.contenedor-interaccion{
+    display: flex;
+    margin-top: 5px;
+    padding: 15px;
+    transition: background-color 0.3s ease-in-out;
+}
+.contenedor-interaccion:hover{
+    font-size: 22px;
+    cursor: pointer;
+    background-color: rgba(219, 219, 219, 0.507);
+    border-radius: 5px;
+}
+.contenedor-interaccion li{
+    list-style-type: none;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+
+    white-space: nowrap; /* Evita que el texto se rompa y se extienda más allá del contenedor */
+    overflow: hidden; /* Oculta el texto que se desborda del contenedor */
+    text-overflow: ellipsis; /* Agrega puntos suspensivos (...) si el texto se desborda */
+}
+
+.contenedor-interaccion i{
+    margin-right: 10px;
+    font-size: 20px;
+    transition: transform 0.3s ease;
+}
+
+.contenedor-interaccion:hover i{
+    transform: scale(1.2);
 }
