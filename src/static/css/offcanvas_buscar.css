@@ -1,0 +1,16 @@
+.offcanvas {
+    position: fixed;
+    top: 0;
+    left: -300px; /* Inicialmente oculto fuera del área visible */
+    width: 300px;
+    height: 100%;
+    background-color: #fff;
+    transition: left 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+.cerrar-offcanvas {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
