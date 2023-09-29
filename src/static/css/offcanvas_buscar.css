@@ -59,3 +59,38 @@
     font-size: 14px;
     line-height: 10px;
 }
+
+/* Contenedor recientes de offcanvas de buscar */
+
+.contenedor-recientes-offcanvas-buscar{
+    width: 90%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recientes-offcanvas-buscar{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    white-space: nowrap; /* Evita que el texto se rompa y se extienda más allá del contenedor */
+    overflow: hidden; /* Oculta el texto que se desborda del contenedor */
+    text-overflow: ellipsis;
+    font-size: 12px;
+}
+
+
+
+.boton-borrar-offcanvas-buscar{
+    margin-left: auto;
+    border: none;
+    color: rgba(30, 143, 255, 0.747);
+    font-size: 14px;
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+}
+
+.boton-borrar-offcanvas-buscar:hover{
+    cursor: pointer;
+    color: rgb(52, 86, 121);
+}
