@@ -1,3 +1,4 @@
+{% load static %}
 <aside id="offcanvas" class="offcanvas">
     <section class="contenedor-offcanvas-buscar">
         <article class="contenedor-titulo-offcanvas-buscar">
@@ -13,10 +14,12 @@
             <button class="boton-borrar-offcanvas-buscar">Borrar todo</button>
         </article>
 
-        <article>
-            <img src="" alt="">
-            <h1>David Forastier</h1>
-            <button>x</button>
+        <article class="contenedor-usuario-offcanvas-buscar">
+            <img class="imagen-usuario-offcanvas-buscar" src="{% static 'img/messi.jpg' %}" >
+            <h1 class="nombre-usuario-offcanvas-buscar">David Forastier</h1>
+            <button class="boton-offcanvas-buscar">X</button>
         </article>
+        <!---->
+        
     </section>
 </aside>

@@ -8,7 +8,10 @@
     transition: left 0.3s ease-in-out;
     z-index: 1000;
     box-shadow: 3px 3px 15px rgba(134, 134, 134, 0.548);
+    overflow-y: auto;
 }
+
+
 .cerrar-offcanvas {
     position: absolute;
     top: 10px;
@@ -93,4 +96,44 @@
 .boton-borrar-offcanvas-buscar:hover{
     cursor: pointer;
     color: rgb(52, 86, 121);
+}
+
+/* Contenedor del usuario que buscaron */
+.contenedor-usuario-offcanvas-buscar{
+    width: 90%;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 5px;
+    
+}
+.contenedor-usuario-offcanvas-buscar:hover{
+    background-color: rgba(219, 219, 219, 0.507);
+    cursor: pointer;
+}
+.imagen-usuario-offcanvas-buscar{
+    width: 50px; /* Ajusta el tamaño de la imagen según tus preferencias */
+    height: 50px; /* Ajusta el tamaño de la imagen según tus preferencias */
+    border-radius: 50%; /* Hace que la imagen tenga una forma circular */
+    object-fit: cover;
+}
+
+.nombre-usuario-offcanvas-buscar{
+    margin-left: 10px;
+    font-family: 'Young Serif', serif;
+    font-size: 15px;
+}
+
+.boton-offcanvas-buscar{
+    margin-left: auto;
+    border: none;
+    background-color: white;
+    border-radius: 3rem;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.boton-offcanvas-buscar:hover{
+    background-color: rgba(182, 182, 182, 0.808);
+    cursor: pointer;
 }
