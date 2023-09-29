@@ -7,10 +7,55 @@
     background-color: #fff;
     transition: left 0.3s ease-in-out;
     z-index: 1000;
+    box-shadow: 3px 3px 15px rgba(134, 134, 134, 0.548);
 }
-
 .cerrar-offcanvas {
     position: absolute;
     top: 10px;
     right: 10px;
+}
+
+.contenedor-offcanvas-buscar{
+    width: 90%;
+    margin: 3rem auto;
+}
+
+/* Contenedor de titulo del offcanvas de buscar */
+.contenedor-titulo-offcanvas-buscar{
+    width: 40%;
+}
+
+.titulo-buscar{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    white-space: nowrap; /* Evita que el texto se rompa y se extienda más allá del contenedor */
+    overflow: hidden; /* Oculta el texto que se desborda del contenedor */
+    text-overflow: ellipsis;
+}
+
+/* Contenedor del textarea del offcanvas de buscar */
+
+.contenedor-textarea-offcanvas-buscar{
+    width: 90%;
+}
+
+.textarea-offcanvas-buscar{
+    width: 100%;
+    resize: none;
+    background-color: rgba(219, 219, 219, 0.507);
+    border: none;
+    border-radius: 5px;
+    padding-top: 10px; 
+    line-height: 10px;
+}
+
+.textarea-offcanvas-buscar:focus{
+    outline: none;
+}
+
+.textarea-offcanvas-buscar::placeholder{
+    color: gray;
+    font-size: 14px;
+    line-height: 10px;
 }

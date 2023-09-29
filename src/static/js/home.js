@@ -31,3 +31,18 @@ document.addEventListener('click', function (event) {
     }
 });
 
+
+
+
+//Offcanvas de buscar
+var textarea = document.querySelector(".textarea-offcanvas-buscar");
+
+textarea.addEventListener("input", function () {
+    this.style.paddingTop = "10px"; // Ajusta el valor según sea necesario
+    this.style.lineHeight = "10px"; // Ajusta el valor para que coincida con el paddingTop
+});
+
+textarea.addEventListener("blur", function () {
+    this.style.paddingTop = ""; // Restaura el valor predeterminado
+    this.style.lineHeight = ""; // Restaura el valor predeterminado
+});
