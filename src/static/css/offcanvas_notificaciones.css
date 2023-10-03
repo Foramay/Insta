@@ -1,0 +1,14 @@
+.offcanvas-notificaciones {
+    position: fixed;
+    top: 0;
+    left: -300px; /* Cambiamos "right" a "left" */
+    width: 300px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.2); /* Cambiamos la sombra al lado izquierdo */
+    transition: left 0.3s ease-in-out; /* Cambiamos "right" a "left" */
+}
+
+.offcanvas-content {
+    padding: 20px;
+}
