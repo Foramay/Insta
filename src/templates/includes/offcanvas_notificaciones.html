@@ -1,11 +1,23 @@
+{% load static %}
 <div id="offcanvas-notificaciones" class="offcanvas-notificaciones">
-    <div class="offcanvas-content">
-        <!-- Contenido de las notificaciones aquí -->
-        <h2>Notificaciones</h2>
-        <ul>
-            <li>Notificación 1</li>
-            <li>Notificación 2</li>
-            <li>Notificación 3</li>
-        </ul>
+    <div class="offcanvas-content-notificaciones">
+
+        <!--Maquetado para el titulo del offcanvas-->
+        <article class="contenedor-titulo-offcanvas-notificaciones">
+            <h1 class="titulo-notificaciones">Notificaciones</h1>
+        </article>
+
+        <!--Maquetado para la notificaciones -->
+        <article class="contenedor-seguidor-nuevo">
+            <img src="{% static 'img/messi.jpg' %}" alt="" class="imagen-usuario-seguidor-nuevo">
+            <h1 class="nombre-usuario-seguidor"><span class="nombre-seguidor">David Forastier</span> comenzó a seguirte.</h1>
+            <button class="boton-seguir">Seguir</button>
+        </article>
+        
+        
+        
+        <article>
+
+        </article>
     </div>
 </div>

@@ -1,14 +1,84 @@
 .offcanvas-notificaciones {
     position: fixed;
     top: 0;
-    left: -300px; /* Cambiamos "right" a "left" */
+    left: -300px;
     width: 300px;
     height: 100%;
     background-color: #fff;
-    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.2); /* Cambiamos la sombra al lado izquierdo */
-    transition: left 0.3s ease-in-out; /* Cambiamos "right" a "left" */
+    box-shadow: 3px 3px 15px rgba(134, 134, 134, 0.548);
+    transition: left 0.3s ease-in-out;
+    overflow-y: auto;
+}
+.offcanvas-content-notificaciones {
+    padding: 20px;
+}
+/* Estilos para el offcanvas de notificaciones */
+
+.contenedor-titulo-offcanvas-notificaciones{
+    width: 40%
+}
+.titulo-notificaciones{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.offcanvas-content {
-    padding: 20px;
+
+
+/* Estilos para notificacion de los seguidores nuevos*/
+.contenedor-seguidor-nuevo{
+    width: 95%;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+    transition: transform 0.2s ease-in-out;
+    margin-top: 5px;
+}
+.contenedor-seguidor-nuevo:hover{
+    cursor: pointer;
+    transform: translateX(5px);
+}
+
+
+
+
+.imagen-usuario-seguidor-nuevo{
+    width: 50px; /* Ajusta el tamaño de la imagen según tus preferencias */
+    height: 50px; /* Ajusta el tamaño de la imagen según tus preferencias */
+    border-radius: 50%; /* Hace que la imagen tenga una forma circular */
+    object-fit: cover;
+}
+
+
+
+/* Estilos para el nombre del usuairo */
+.nombre-usuario-seguidor{
+    font-size: 10px;
+    padding-left: 5px;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(46, 46, 46, 0.836);
+}
+
+.nombre-seguidor{
+    color: black;
+    font-size: 12px;
+}
+
+/* Estilos para el boton de seguir*/
+
+.boton-seguir{
+    background-color: #008cffda;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, transform 0.2s ease-in-out;
+    margin-left: auto;
+}
+
+.boton-seguir:hover{
+    background-color: #008cff;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.541);
+    transform: translateY(-5px);
 }
