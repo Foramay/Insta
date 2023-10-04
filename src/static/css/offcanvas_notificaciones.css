@@ -41,7 +41,7 @@
 
 
 
-.imagen-usuario-seguidor-nuevo{
+.imagen-usuario-seguidor{
     width: 50px; /* Ajusta el tamaño de la imagen según tus preferencias */
     height: 50px; /* Ajusta el tamaño de la imagen según tus preferencias */
     border-radius: 50%; /* Hace que la imagen tenga una forma circular */
@@ -81,4 +81,30 @@
     cursor: pointer;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.541);
     transform: translateY(-5px);
+}
+
+
+
+/* Estilos para cuando a un usuario le gusta una publicacion tuya */
+
+.contenedor-like-publicacion{
+    width: 95%;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+    transition: transform 0.2s ease-in-out;
+    margin-top: 5px;
+}
+
+.contenedor-like-publicacion:hover{
+    cursor: pointer;
+    transform: translateX(5px);
+}
+
+
+
+.imagen-like-usuario-notificacion{
+    width: 50px; /* Ajusta el tamaño de la imagen según tus preferencias */
+    height: 50px; /* Ajusta el tamaño de la imagen según tus preferencias */
+    object-fit: cover;
 }
