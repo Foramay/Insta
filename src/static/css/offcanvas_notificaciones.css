@@ -36,6 +36,9 @@
 .contenedor-seguidor-nuevo:hover{
     cursor: pointer;
     transform: translateX(5px);
+    background: linear-gradient(to right, #c2c2c2, #ffffff);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
 }
 
 
@@ -99,6 +102,9 @@
 .contenedor-like-publicacion:hover{
     cursor: pointer;
     transform: translateX(5px);
+    background: linear-gradient(to right, #c2c2c2, #ffffff);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
 }
 
 
