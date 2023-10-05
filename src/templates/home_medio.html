@@ -1,10 +1,24 @@
 {% extends 'home.html' %}
 
-
+{% load static %}
 
 {% block home %}
     <section class="contenedor-home-insta">
-        <h1>Contenido home</h1>
+        
+        
+        <article class="contenedor-historias-usuarios">
+            <img class="historias-usuarios" src="{% static 'img/messi.jpg' %}" alt="">
+            <img class="historias-usuarios" src="{% static 'img/messi.jpg' %}" alt="">
+            
+            
+        </article>
+        
+        
+        
+        
+        <article>
+            <h1>Aca van las publicaciones de los usuarios</h1>
+        </article>
     </section>
 {% endblock home %}
     
