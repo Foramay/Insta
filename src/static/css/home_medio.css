@@ -1,6 +1,5 @@
 .contenedor-home-insta{
-    margin-left: 20%; /* Igual al ancho del contenedor izquierdo */
-    border: 1px solid black;
+    margin-left: 20%; 
     width: 55%;
     display: flex;
     flex-direction: column;
@@ -9,11 +8,12 @@
     top: 0;
     bottom: 0;
     left: 0;
+    overflow-y: auto;
+    border-right: 1px solid black;
 }
 
 
 .contenedor-historias-usuarios{
-    border: 1px solid tomato;
     width: 100%;
     height: 20%;
 
@@ -39,3 +39,43 @@
     border: 3px solid rgb(255, 42, 4);
 }
 
+
+
+/* Estilos para las publicaciones de los usuarios */
+.contenedor-publicacion-usuarios{
+    width: 80%;
+    height: auto;
+    margin: 2rem auto;
+}
+
+/* Contenedor de informacion del usuario en la publicacion*/
+.contenedor-informacion-usuario{
+    width: 95%;
+    height: 50px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.contenedor-imagen-usuario-publicacion{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-usuario-publicacion{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out, border 0.3s ease-in-out;
+    border: 3px solid rgb(255, 73, 41);
+    padding: 2px;
+    
+}
+
+.imagen-usuario-publicacion:hover{
+    border: 3px solid rgb(250, 37, 0);
+    transform: scale(1.1);
+    cursor: pointer;
+}
