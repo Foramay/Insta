@@ -1,0 +1,63 @@
+/* estilos.css */
+#dropdown {
+    list-style: none;
+    padding: 0;
+    width: 250px;
+    background-color: #fff;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.418);
+    position: absolute;
+    border-radius: 1rem;
+    transform: translateY(-140%);
+    left: 50px;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    pointer-events: none; 
+}
+
+#dropdown.show {
+    opacity: 1;
+    pointer-events: auto; 
+}
+/*
+#dropdown li {
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+#dropdown li:hover{
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #e6e6e6;
+}
+*/
+.dropdown-contenido{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contenedor-dropdown{
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    display: flex;
+    transition: background-color 0.3s ease-in-out;
+    align-items: center;
+}
+
+.contenedor-dropdown li{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.contenedor-dropdown i{
+    margin-right: 10px;
+    font-size: 20px;
+}
+.contenedor-dropdown:hover{
+    background-color: #eeeeee;
+    cursor: pointer;
+    border-radius: 5px;
+}
