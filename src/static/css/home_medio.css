@@ -176,3 +176,69 @@
     width: 95%;
     object-fit: cover;
 }
+
+/* Estilos para los botones de interaccion */
+.contenedor-interaccion-publicacion{
+    width: 95%;
+    margin: 5px auto;
+    display: flex;
+}
+
+
+.contenedor-guardar-boton-publicacion{
+    margin-left: auto;
+}
+
+
+
+.me-gusta{
+    color: black;
+    font-size: 25px;
+    margin-right: 5px;
+    transition: font-size 0.3s ease-in-out, transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.me-gusta:hover{
+    color: red;
+    transform: scale(1.2);
+    cursor: pointer;   
+}
+
+.comentario{
+    color: black;
+    font-size: 25px;
+    margin-right: 5px;
+    transition: font-size 0.3s ease-in-out, transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.comentario:hover{
+    color: rgb(72, 173, 240);
+    transform: scale(1.2);
+    cursor: pointer;  
+}
+
+.compartir{
+    color: black;
+    font-size: 25px;
+    margin-right: 5px;
+    transition: font-size 0.3s ease-in-out, transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.compartir:hover{
+    color: chartreuse;
+    transform: scale(1.2);
+    cursor: pointer;  
+}
+
+
+.guardar{
+    color: rgb(80, 80, 80);
+    font-size: 25px;
+    margin-right: 5px;
+    transition: font-size 0.3s ease-in-out, transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.guardar:hover{
+    color: black;
+    transform: scale(1.2);
+    cursor: pointer;  
+}
