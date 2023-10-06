@@ -242,3 +242,26 @@
     transform: scale(1.2);
     cursor: pointer;  
 }
+
+
+/* Estilos para los me gustas */
+.contenedor-de-me-gustas-usuarios{
+    width: 95%;
+    margin: 0 auto;    
+}
+
+.me-gustas{
+    top: 0; 
+    left: 0; 
+    margin: 0;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: 'Open Sans', sans-serif;
+    transition: text-decoration 0.2s ease-in-out;
+}
+
+.me-gustas:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
