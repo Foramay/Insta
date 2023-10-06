@@ -2,6 +2,7 @@
     width: 99%;
     margin: 0 auto;
     height: auto;
+    display: flex;
 }
 a{
     text-decoration: none;
@@ -93,4 +94,39 @@ a{
 .mas-opciones:hover{
     cursor: pointer;
     transform: scale(1.2);
+}
+
+/* Aca van los mensajes de los usuarios*/
+.contenedor-mensajes-usuarios{
+    width: 30%;
+}
+
+.contenedor-usario-sus-mensajes{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.usuario-registrado{
+    color: black;
+    font-size: 15px;
+    margin-left: 10px;
+    font-family: 'Young Serif', serif;
+    transition: transform 0.3s ease-in-out;
+}
+.usuario-registrado:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    transform: translateX(15px);
+}
+
+.nuevo-mensaje{
+    margin-left: auto;
+    margin-right: 10px;
+    font-size: 23px;
+    transition: transform 0.3s ease-in-out;
+}
+.nuevo-mensaje:hover{
+    transform: scale(1.2);
+    cursor: pointer;
 }
