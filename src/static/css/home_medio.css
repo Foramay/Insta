@@ -292,3 +292,20 @@
     cursor: pointer;
     text-decoration: underline;
 }
+
+/* Estilos para el textarea de la publicacion */
+
+.contenedor-textarea-publicacion{
+    width: 95%;
+    margin: 5px auto; 
+}
+
+.textarea-publicacion{
+    width: 100%;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid rgb(71, 71, 71);
+}
+.textarea-publicacion:focus{
+    outline: none;
+}
