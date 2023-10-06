@@ -79,3 +79,90 @@
     transform: scale(1.1);
     cursor: pointer;
 }
+
+
+/* Información de la publicación del usuario */
+
+.contenedor-informacion-publicacion-usuario{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.informacion-publicacion-usuario{
+    display: flex;
+}
+
+.nombre-usuario-publicacion{
+    top: 0; 
+    left: 0; 
+    margin: 0;
+
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    transition: transform 0.3s ease-in-out, font-size 0.3s ease-in-out;
+}
+.nombre-usuario-publicacion:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    font-size: 15px;
+}
+.dias-usuario-publicacion{
+    top: 0; 
+    left: 0; 
+    margin: 0;
+    padding-left: 6px;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+.contenedor-ubicacion-publicacion{
+    height: 100%;
+    margin-top: 10px;
+}
+
+.ubicacion-publicacion{
+    top: 0; 
+    left: 0; 
+    margin: 0;
+
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+
+    transition: transform 0.3s ease-in-out, font-size 0.3s ease-in-out;
+
+}
+
+.ubicacion-publicacion:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    font-size: 15px;
+}
+
+
+/* Estilos para las opciones de la publicación */
+
+.contenedor-opciones-publicacion{
+    margin-top: 10px;
+    margin-left: auto;
+    
+}
+.opciones-publicacion{
+    transition: transform 0.3s ease-in-out;
+    font-size: 20px;
+}
+.opciones-publicacion:hover{
+    transform: scale(1.4);
+    cursor: pointer;
+}
