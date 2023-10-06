@@ -18,7 +18,6 @@
     height: 20%;
 
     display: flex;
-    overflow: hidden;
 }
 
 .historias-usuarios{
@@ -99,7 +98,6 @@
     top: 0; 
     left: 0; 
     margin: 0;
-
     overflow: hidden; 
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -133,15 +131,12 @@
     top: 0; 
     left: 0; 
     margin: 0;
-
     overflow: hidden; 
     text-overflow: ellipsis;
     white-space: nowrap;
     font-family: 'Open Sans', sans-serif;
     font-size: 10px;
-
     transition: transform 0.3s ease-in-out, font-size 0.3s ease-in-out;
-
 }
 
 .ubicacion-publicacion:hover{
@@ -156,13 +151,28 @@
 .contenedor-opciones-publicacion{
     margin-top: 10px;
     margin-left: auto;
-    
 }
+
 .opciones-publicacion{
     transition: transform 0.3s ease-in-out;
     font-size: 20px;
 }
+
 .opciones-publicacion:hover{
     transform: scale(1.4);
     cursor: pointer;
+}
+
+
+/* Estilos para la imagen de perfil */
+.contenedor-imagen-publicacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.imagen-publicacion{
+    width: 95%;
+    object-fit: cover;
 }
