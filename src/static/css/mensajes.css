@@ -1,0 +1,96 @@
+.contenedor-mensajes{
+    width: 99%;
+    margin: 0 auto;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.contenedor-iconos-mensajes{
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-iconos{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.insta{
+    font-size: 35px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.insta:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.home{
+    font-size: 35px;
+    transition: transform 0.3s ease-in-out;
+}
+.home:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.buscar{
+    font-size: 35px;
+    transition: transform 0.3s ease-in-out;
+}
+.buscar:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.mensajes{
+    font-size: 35px;
+    transition: transform 0.3s ease-in-out;
+}
+.mensajes:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.notificaciones{
+    font-size: 35px;
+    transition: transform 0.3s ease-in-out;
+}
+.notificaciones:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.crear{
+    font-size: 35px;
+    transition: transform 0.3s ease-in-out;
+}
+.crear:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.usuario{
+    font-size: 35px;
+    transition: transform 0.3s ease-in-out;
+}
+.usuario:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.mas-opciones{
+    font-size: 35px;
+    transition: transform 0.3s ease-in-out;
+}
+.mas-opciones:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}

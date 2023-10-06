@@ -1,0 +1,60 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/mensajes.css' %}">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Insta</title>
+</head>
+<body>
+    <main class="contenedor-mensajes">
+        <section class="contenedor-iconos-mensajes">
+            <!--Insta-->
+            <div class="contenedor-iconos">
+                <a href="{% url 'home' %}">
+                    <i class="fa-brands fa-instagram insta"></i>
+                </a>
+            </div>
+            <!--Home-->
+            <div class="contenedor-iconos">
+                <a href="{% url 'home' %}">    
+                    <i class="fa-solid fa-house home"></i>
+                </a>
+            </div>
+            <!--Buscar-->
+            <div class="contenedor-iconos" >
+                <i class="fa-solid fa-magnifying-glass buscar"></i>
+            </div>
+            <!--Mensajes-->
+            <div class="contenedor-iconos">
+                <i class="fa-solid fa-message mensajes"></i>
+            </div>
+            <!--Notificaciones-->
+            <div class="contenedor-iconos">
+                <i class="fa-solid fa-bell notificaciones"></i>
+            </div>
+            <!--Crear-->
+            <div class="contenedor-iconos">
+                <i class="fa-solid fa-plus crear"></i></li>
+            </div>
+            <!--User-->
+            <div class="contenedor-iconos">
+                <i class="fa-solid fa-user usuario"></i></li>
+            </div>
+            <!--Más opciones-->
+            <div class="contenedor-iconos">
+                <i class="fa-solid fa-bars mas-opciones"></i></li>
+            </div>
+        </section>
+        <section>
+
+        </section>
+        <section>
+
+        </section>
+    </main>
+</body>
+</html>
