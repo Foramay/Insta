@@ -271,3 +271,49 @@ a{
     transform: scale(1.2);
     cursor: pointer;
 }
+
+
+
+/* Estilos para la conversacion con usuario */
+
+.contenedor-conversacion-usuario{
+    width: 100%;
+    height: 70%;
+    overflow-y: auto;
+}
+
+.contenedor-usuario{
+    display: flex;
+    align-items: center;
+    width: 95%;
+    margin-left: 10px;
+}
+
+.imagen-usuario{
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%; 
+    object-fit: cover;
+    margin-left: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.imagen-usuario:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.contenedor-mensajes-usuario{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 5px;
+}
+.mensaje-usuario{
+    background-color: rgba(197, 196, 196, 0.822);
+    display: inline-block;
+    margin: 2px;
+    padding: 5px;
+    border-radius: 3rem;
+}

@@ -10,7 +10,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
 
 
 
@@ -103,9 +105,26 @@
             
             
             
-            <article>
-                <h1>Aca va la conversacion</h1>
+            <article class="contenedor-conversacion-usuario">
+                <!--Estilos para el mensaje del usuario-->
+                <div class="contenedor-usuario">
+                    <img class="imagen-usuario" src="{% static 'img/messi.jpg' %}" alt="">
+                    <div class="contenedor-mensajes-usuario">
+                        <h1 class="mensaje-usuario">Hola</h1>
+                        <h1 class="mensaje-usuario">¿Cómo estas?</h1>
+                        
+                    </div>
+                </div>
+
+
+                <!--Estilos para el usuario-->
+                <div>
+                    <h1>Hola, ¿Cómo estás?</h1>
+                </div>
             </article>
+
+
+
 
             <article>
                 <h1>Aca va el textarea</h1>
