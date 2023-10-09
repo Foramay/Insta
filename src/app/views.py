@@ -15,3 +15,8 @@ def mensajes(request):
 def perfil(request):
     template_name = 'perfil.html'
     return render(request, template_name, {})
+
+
+def login(request):
+    template_name = 'login.html'
+    return render(request, template_name, {})
