@@ -43,10 +43,12 @@
             <article class="contenedor-izquierdo">
                 <h1 class="insta">Insta</h1>
                 <ul class="listas-interacciones">
-                    <div class="contenedor-interaccion">
-                        <i class="fa-solid fa-house"></i>
-                        <li>Inicio</li>
-                    </div>
+                    <a class="etiqueta" href="{% url 'home' %}">
+                        <div class="contenedor-interaccion">
+                            <i class="fa-solid fa-house"></i>
+                            <li>Inicio</li>
+                        </div>
+                    </a>
                     
                     <div class="contenedor-interaccion abrir-offcanvas" id="abrirOffcanvas">
                         <i class="fa-solid fa-magnifying-glass"></i>
@@ -70,10 +72,12 @@
                         <li>Crear</li>
                     </div>
                     
-                    <div class="contenedor-interaccion">
-                        <i class="fa-solid fa-user"></i>
-                        <li>Perfil</li>
-                    </div>
+                    <a class="etiqueta" href="{% url 'perfil' %}">
+                        <div class="contenedor-interaccion">
+                            <i class="fa-solid fa-user"></i>
+                            <li>Perfil</li>
+                        </div>
+                    </a>
                     
 
 

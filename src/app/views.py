@@ -10,3 +10,8 @@ def home(request):
 def mensajes(request):
     template_name = 'mensajes.html'
     return render(request, template_name, {})
+
+
+def perfil(request):
+    template_name = 'perfil.html'
+    return render(request, template_name, {})
