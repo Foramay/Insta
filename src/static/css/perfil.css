@@ -1,13 +1,11 @@
 .contenedor-header-perfil-usuario{
-    border: 1px solid black;
     width: 95%;
     margin: 3rem auto;
     display: flex;
 }
 
-
+/* Estilos para la imagen de perfil del usuario */
 .contenedor-imagen-perfil-usuario{
-    border: 1px solid tomato;
     width: 30%;
     display: flex;
     justify-content: center;
@@ -29,28 +27,92 @@
 
 
 
-
+/* Estilos para la informacion del usuario */
 
 .contenedor-informacion-perfil-usuario{
-    border: 1px solid violet;
     width: 70%;
+    display: flex;
+    flex-direction: column;
 }
 
-
+/* Estilos para el contenedor de informacion del usuario */
 .contenedor-perfil{
-    border: 1px solid green;
     display: flex;
     width: 100%;
+    align-items: center;
+    overflow: hidden;
+}
+
+.nombre-del-usuario{
+    font-family: 'Young Serif', serif;
+    font-size: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.nombre-del-usuario:hover{
+    cursor: pointer;
+}
+
+.boton-editar-perfil{
+    background-color: gainsboro;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 5px;
+    transition: transform 0.3s ease-in-out;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.boton-editar-perfil:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.boton-ver-archivo{
+    background-color: gainsboro;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 5px;
+    transition: transform 0.3s ease-in-out;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.boton-ver-archivo:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.boton-herramientas{
+    background-color: gainsboro;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 5px;
+    transition: transform 0.3s ease-in-out;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.boton-herramientas:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.settings{
+    margin-left: auto;
+    transition: transform 0.3s ease-in-out;
+    font-size: 20px;
+}
+
+.settings:hover{
+    transform: scale(1.2);
+    cursor: pointer;
 }
 
 .contenedor-informacion-usuario{
-    border: 1px solid salmon;
     width: 100%;
 }
 
 
 .contenedor-nombre-y-descripcion{
-    border: 1px solid red;
     width: 100%;
     display: flex;
     flex-direction: column;
