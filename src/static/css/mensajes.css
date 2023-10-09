@@ -1,9 +1,11 @@
+
 .contenedor-mensajes{
     width: 99%;
     margin: 0 auto;
     height: auto;
     display: flex;
     overflow-y: auto;
+    position: fixed;
 }
 a{
     text-decoration: none;
@@ -339,4 +341,66 @@ a{
     margin-left: auto;
     color: white;
     font-size: 15px;
+}
+
+/* Estilos para el textarea de la conversacion */
+
+.contenedor-textarea-conversacion{
+    border: 1px solid rgba(197, 196, 196, 0.822);
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    border-radius: 3rem;
+}
+
+.contenedor-emoji-conversacion{
+    width: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.happy{
+    font-size: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+.happy:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.contenedor-textarea{
+    width: 80%;
+}
+
+.textarea-conversacion{
+    width: 100%;
+    height: 100%;
+    resize: none;
+    border: none;
+    display: flex;
+    margin-left: 5px;
+    align-items: center;
+}
+
+.textarea-conversacion:focus{
+    outline: none;
+}
+
+
+.contenedor-opciones-conversacion{
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.contenedor-opciones-conversacion i{
+    font-size: 20px;
+    padding: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.contenedor-opciones-conversacion i:hover{
+    transform: scale(1.2);
+    cursor: pointer;
 }
