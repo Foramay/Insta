@@ -45,7 +45,7 @@
 
 .nombre-del-usuario{
     font-family: 'Young Serif', serif;
-    font-size: 15px;
+    font-size: 10px;
     margin-right: 5px;
     margin-left: 5px;
 }
@@ -109,11 +109,36 @@
 
 .contenedor-informacion-usuario{
     width: 100%;
+    display: flex;
+    align-items: center;
 }
+.contenedor-informacion-usuario h1{
+    color: black;
+    margin-left: 15px;
+    font-size: 13px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.contenedor-informacion-usuario span{
+    color: black;
+    font-size: 20px;
+}
+
+
 
 
 .contenedor-nombre-y-descripcion{
     width: 100%;
     display: flex;
     flex-direction: column;
+    margin-left: 5px;
+}
+
+.contenedor-nombre-y-descripcion h1{
+    font-family: 'Young Serif', serif;
+}
+
+
+.contenedor-nombre-y-descripcion p{
+    font-size: 11px;
+    font-family: 'Bebas Neue', sans-serif;
 }
