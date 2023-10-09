@@ -1,10 +1,53 @@
 {% extends 'home.html' %}
 
-
+{% load static %}
 
 {% block home %}
     <section class="contenedor-home-insta">
-        <h1>Perfil</h1>
+        
+        
+        <!--Maquetado para la parte del header de perfil del insta-->
+        <article class="contenedor-header-perfil-usuario">
+
+
+            <div class="contenedor-imagen-perfil-usuario">
+                <img class="imagen-perfil-usuario" src="{% static 'img/messi.jpg' %}" alt="">
+            </div>
+
+
+            <div class="contenedor-informacion-perfil-usuario">
+                <div class="contenedor-perfil">
+                    <h1>David Forastier</h1>
+                    <button>Editar perfil</button>
+                    <button>Ver archivo</button>
+                    <button>Herramientas publicitarias</button>
+                    <i class="fa-solid fa-gear"></i>
+                </div>
+
+                <div class="contenedor-informacion-usuario">
+                    <h1>10 publicaciones</h1>
+                    <h1>912 seguidores</h1>
+                    <h1>18 seguidos</h1>
+                </div>
+
+                <div class="contenedor-nombre-y-descripcion">
+                    <h1>David Forastier</h1>
+                    <p>Alguna descripcion de este perfil</p>
+                </div>
+            </div>
+        </article>
+        
+        
+
+
+
+
+        
+        <article>     
+        </article>
+   
+   
+   
     </section>
 {% endblock home %}
     

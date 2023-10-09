@@ -1,0 +1,57 @@
+.contenedor-header-perfil-usuario{
+    border: 1px solid black;
+    width: 95%;
+    margin: 3rem auto;
+    display: flex;
+}
+
+
+.contenedor-imagen-perfil-usuario{
+    border: 1px solid tomato;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-perfil-usuario{
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+    object-fit: cover;
+}
+
+.imagen-perfil-usuario:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+
+
+
+.contenedor-informacion-perfil-usuario{
+    border: 1px solid violet;
+    width: 70%;
+}
+
+
+.contenedor-perfil{
+    border: 1px solid green;
+    display: flex;
+    width: 100%;
+}
+
+.contenedor-informacion-usuario{
+    border: 1px solid salmon;
+    width: 100%;
+}
+
+
+.contenedor-nombre-y-descripcion{
+    border: 1px solid red;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
