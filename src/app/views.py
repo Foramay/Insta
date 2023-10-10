@@ -20,3 +20,8 @@ def perfil(request):
 def login(request):
     template_name = 'login.html'
     return render(request, template_name, {})
+
+
+def registro(request):
+    template_name = 'registro.html'
+    return render(request, template_name, {})

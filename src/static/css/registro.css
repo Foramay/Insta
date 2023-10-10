@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.contenedor-registro-insta{
+    width: 100%;
+    overflow-y: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contenedor-registro{
+    border: 1px solid rgba(134, 134, 134, 0.562);
+    margin: 2rem auto;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+
+/* estilos para el contenedor del header */
+.contenedor-header-registro-insta{
+    width: 80%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-titulo-registro-insta{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+
+.titulo-insta-registro{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+
+.contenedor-parrafo-registro{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+
+
+.parrafo-registro{
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(85, 83, 83);
+}
+
+.contenedor-registro-facebook-insta{
+    width: 100%;
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #008cff;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+.contenedor-registro-facebook-insta:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: #0272ce;
+}
+.contenedor-registro-facebook-insta i{
+    background-color: white;
+    color: #008cff;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.contenedor-registro-facebook-insta h1{
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 13px;
+}
+
+
+/* Estilos para los textareas*/
+
+.contenedor-textareas-registro-insta{
+    width: 80%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textarea-registro-insta{
+    width: 100%;
+    resize: none;
+    border: 1px solid rgba(85, 85, 85, 0.747);
+    margin-bottom: 5px;
+}
+
+.textarea-registro-insta:focus{
+    outline: none;
+}
+
+/* Estilos para el boton de registrarse*/
+.contenedor-boton-registrarse-insta{
+    width: 80%;
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #008cff;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    padding: 5px;
+}
+
+.contenedor-boton-registrarse-insta h1{
+    border: none;
+    background-color: #008cff;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 13px;
+}
+
+.contenedor-boton-registrarse-insta:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: #0272ce;
+}
